@@ -9,8 +9,7 @@ function App() {
   function handleClick() {
     setIsDark((isDark) => !isDark);
   }
-  // replace 'false' with a state variable that can be toggled between true and false
-  // this will be used for the Dark Mode Toggle feature
+
   const appClass = isDark ? "App dark" : "App light"
 
   return (
